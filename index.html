@@ -218,6 +218,16 @@ const defaultRegular = {
     weekday: {}
 };
 
+const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "youthnarooschedule.firebaseapp.com",
+    projectId: "youthnarooschedule",
+    storageBucket: "YOUR_PROJECT.appspot.com",
+    messagingSenderId: "53441811066",
+    appId: "1:53441811066:web:cc3604e124ca94778ca1c3
+"
+};
+    
 let activeTab = 'sat';
 let selectedTeamId = 'narujigi';
 let reservations = {
@@ -403,18 +413,9 @@ document.addEventListener('DOMContentLoaded', startApp);
 
 # Firebase 사용할 경우
 
-아래 부분만 자신의 Firebase 정보로 교체하면 됩니다.
 
-```js
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
-```
+
+
 
 # GitHub Pages 업로드 방법
 
